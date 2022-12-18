@@ -1,0 +1,110 @@
+.auth-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.desktop-navbar {
+    display: none;
+}
+
+.navbar-container-dark {
+    position: fixed;
+    display: flex;
+    background-color: rgb(24, 24, 25);
+    border-bottom: 1px solid rgb(128, 128, 128);
+    padding: 0px 20px;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-container-light {
+    position: fixed;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(237, 239, 241);
+    padding: 0px 20px;
+    width: 100%;
+    height: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.mobile-navbar-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 32px 0px;
+    padding: 32px 0px;
+    border-top: 1px solid rgb(128, 128, 128);
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.desktop-navbar-buttons-container {
+    display: none;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.form-input-dark {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 24, 25);
+    border: 1px solid rgb(128, 128, 128);
+    width: 70%;
+}
+
+.form-input-light {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(128, 128, 128);
+    width: 70%;
+}
+
+.navbar-modal-dark {
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 24, 25);
+    border: 1px solid rgb(128, 128, 128);
+}
+
+.navbar-modal-light {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+}
+
+@media only screen and (min-width: 700px) {
+    .auth-buttons {
+        width: auto;
+    }
+
+    .desktop-navbar {
+        display: inherit;
+    }
+
+    .desktop-navbar-buttons-container {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .auth-buttons {
+        width: auto;
+    }
+
+    .desktop-navbar {
+        display: inherit;
+    }
+
+    .desktop-navbar-buttons-container {
+        display: flex;
+    }
+}

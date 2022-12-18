@@ -1,0 +1,9 @@
+.error-message {
+    color: rgb(255, 0, 0);
+    margin-bottom: 5px;
+}
+
+.success-message {
+    color: rgb(21, 133, 21);
+    margin-bottom: 5px;
+}

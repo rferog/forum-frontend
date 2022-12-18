@@ -1,0 +1,19 @@
+.topic-description {
+    display: none;
+}
+
+@media only screen and (min-width: 700px) {
+    .topic-description {
+        display: flex;
+        padding: 15px 0px 0px 24px;
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .topic-description {
+        display: flex;
+        padding: 15px 0px 0px 24px;
+        width: 30%;
+    }
+}

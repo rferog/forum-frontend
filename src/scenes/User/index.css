@@ -1,0 +1,89 @@
+.user-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 48px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-settings-dark {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 25);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding: 10px;
+    width: 85%;
+}
+
+.user-settings-light {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    margin: 15px 0px;
+    padding: 10px;
+    width: 85%;
+}
+
+.user-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    padding: 15px 0px;
+}
+
+@media only screen and (min-width: 700px) {
+    .user-container {
+        flex-direction: row;
+        padding: 48px 100px;
+        align-items: flex-start;
+    }
+
+    .user-settings-dark {
+        margin: 15px 0px 0px 24px;
+        padding: 10px;
+        width: 70%;
+    }
+
+    .user-settings-light {
+        margin: 15px 0px 0px 24px;
+        padding: 10px;
+        width: 70%;
+    }
+
+    .user-description {
+        width: 40%;
+        padding: 15px 0px 0px 24px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .user-container {
+        flex-direction: row;
+        padding: 48px 100px;
+        align-items: flex-start;
+    }
+
+    .user-settings-dark {
+        margin: 15px 0px 0px 24px;
+        padding: 10px;
+        width: 50%;
+    }
+
+    .user-settings-light {
+        margin: 15px 0px 0px 24px;
+        padding: 10px;
+        width: 50%;
+    }
+
+    .user-description {
+        width: 30%;
+        padding: 15px 0px 0px 24px;
+    }
+}
